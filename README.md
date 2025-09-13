@@ -1,4 +1,4 @@
-### 🤖 Github 贡献 👇👇👇
+### 🤖 GitHub Contributions 👇👇👇
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ender-g/Ender-g/output/github-contribution-grid-snake-dark.svg">
@@ -8,8 +8,16 @@
 
 ---
 
-### 🌐 联系方式 👇👇👇
+### ### ❤️ Games I Like
 
-#### ♠️ 邮箱1：<email-e@playereg.top>
+<iframe src="https://store.steampowered.com/widget/1091500/" frameborder="0" width="646" height="190"></iframe>
 
-#### ♣️ 邮箱2：<email-g@playereg.top>
+<iframe src="https://store.steampowered.com/widget/367520/" frameborder="0" width="646" height="190"></iframe>
+
+---
+
+### 🌐 Contact Information 👇👇👇
+
+#### ♠️ Email 1: <email-e@playereg.top>
+
+#### ♣️ Email 2: <email-g@playereg.top>
