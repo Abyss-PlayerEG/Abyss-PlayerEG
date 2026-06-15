@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=PlayerEG&fontSize=30&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=개발자%20%7C%20게이머%20%7C%20크리에이터&descSize=14&descAlignY=55" />
-
 <a href="README.md">English</a> | <a href="README_CN.md">简体中文</a> | <a href="README_TW.md">繁體中文</a> | <a href="README_RU.md">Русский</a> | <a href="README_JA.md">日本語</a> | <a href="README_KO.md"><b>한국어</b></a> | <a href="README_ES.md">Español</a> | <a href="README_PT.md">Português</a>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=PlayerEG&fontSize=30&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=개발자%20%7C%20게이머%20%7C%20크리에이터&descSize=14&descAlignY=55" />
 
 ### 👋 안녕하세요!!!
 
