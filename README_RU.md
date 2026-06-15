@@ -1,34 +1,34 @@
 <div align="center">
 
-[![English](https://img.shields.io/badge/English-gray?style=for-the-badge)](README.md) [![简体中文](https://img.shields.io/badge/简体中文-gray?style=for-the-badge)](README_CN.md) [![繁體中文](https://img.shields.io/badge/繁體中文-gray?style=for-the-badge)](README_TW.md) [![Русский](https://img.shields.io/badge/Русский-gray?style=for-the-badge)](README_RU.md) [![文言文](https://img.shields.io/badge/文言文-blue?style=for-the-badge)](README_WY.md)
+[![English](https://img.shields.io/badge/English-gray?style=for-the-badge)](README.md) [![简体中文](https://img.shields.io/badge/简体中文-gray?style=for-the-badge)](README_CN.md) [![繁體中文](https://img.shields.io/badge/繁體中文-gray?style=for-the-badge)](README_TW.md) [![Русский](https://img.shields.io/badge/Русский-blue?style=for-the-badge)](README_RU.md) [![文言文](https://img.shields.io/badge/文言文-gray?style=for-the-badge)](README_WY.md)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=PlayerEG&fontSize=30&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=匠人%20%7C%20游者%20%7C%20创者&descSize=14&descAlignY=55" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=PlayerEG&fontSize=30&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Разработчик%20%7C%20Геймер%20%7C%20Создатель&descSize=14&descAlignY=55" />
 
-### 诸君万福!!!
+### Привет!!!
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=1000&pause=1&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=吾乃全栈匠人;善以程式构万物.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=1000&pause=1&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=Я+фулстек+разработчик;люблю+создавать+вещи+с+помощью+кода.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
 
-匠人 · 游者 · 乐者 · 乐师
+🧑‍💻 **Разработчик** · 🎮 **Геймер** · 🎵 **Любитель музыки** · 🎹 **Музыкальный создатель**
 
 ---
 
-### 吾之器物
+### 🧰 Мой набор инструментов
 
 <table>
   <tr>
-    <td valign="center" width="150"><b>程式之语</b></td>
+    <td valign="center" width="150"><b>Языки</b></td>
     <td valign="center"><img src="https://skillicons.dev/icons?i=py,java,js,go,html,css&theme=dark" /></td>
   </tr>
   <tr>
-    <td valign="center" width="150"><b>框架</b></td>
+    <td valign="center" width="150"><b>Фреймворки</b></td>
     <td valign="center"><img src="https://skillicons.dev/icons?i=nodejs,spring,fastapi,vue&theme=dark" /></td>
   </tr>
   <tr>
-    <td valign="center" width="150"><b>游戏之器 & IDE</b></td>
+    <td valign="center" width="150"><b>Игровые движки & IDE</b></td>
     <td valign="center"><img src="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,vscode,arduino&theme=dark" /></td>
   </tr>
   <tr>
-    <td valign="center" width="150"><b>典籍之库</b></td>
+    <td valign="center" width="150"><b>Базы данных</b></td>
     <td valign="center"><img src="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb&theme=dark" /></td>
   </tr>
   <tr>
@@ -36,12 +36,12 @@
     <td valign="center"><img src="https://skillicons.dev/icons?i=git,github,gitlab,docker,nginx,cloudflare,bash,powershell&theme=dark" /></td>
   </tr>
   <tr>
-    <td valign="center" width="150"><b>操作系统</b></td>
+    <td valign="center" width="150"><b>Операционные системы</b></td>
     <td valign="center"><img src="https://skillicons.dev/icons?i=windows,apple,ubuntu,kali,debian,arch&theme=dark" /></td>
   </tr>
 </table>
 
-#### 心之所好
+#### ⭐ Избранное
 
 <table>
   <tr>
@@ -58,7 +58,7 @@
 
 ---
 
-### GitHub 功绩
+### 🐍 GitHub Вклад
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abyss-PlayerEG/Abyss-PlayerEG/output/github-contribution-grid-snake-dark.svg">
@@ -68,7 +68,7 @@
 
 ---
 
-### 联络之法
+### 📫 Контакты
 
 [![Email](https://img.shields.io/badge/Email-gaster%40vip.playereg.top-blue?style=flat-square&logo=mail)](mailto:gaster@vip.playereg.top)
 [![Email](https://img.shields.io/badge/Email-ender%40vip.playereg.top-blue?style=flat-square&logo=mail)](mailto:ender@vip.playereg.top)
