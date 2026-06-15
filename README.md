@@ -43,14 +43,14 @@
 
 <table>
   <tr>
-    <td align="center"><img src="vtuber-style-logos/Python.png" width="160" /></td>
-    <td align="center"><img src="vtuber-style-logos/Java.png" width="160" /></td>
-    <td align="center"><img src="vtuber-style-logos/GodotLogo.png" width="160" /></td>
+    <td align="center"><a href="https://www.python.org"><img src="vtuber-style-logos/Python.png" width="160" /></a></td>
+    <td align="center"><a href="https://www.java.com"><img src="vtuber-style-logos/Java.png" width="160" /></a></td>
+    <td align="center"><a href="https://godotengine.org"><img src="vtuber-style-logos/GodotLogo.png" width="160" /></a></td>
   </tr>
   <tr>
-    <td align="center"><img src="vtuber-style-logos/Vue.png" width="160" /></td>
-    <td align="center"><img src="vtuber-style-logos/Ubuntu.png" width="160" /></td>
-    <td align="center"><img src="vtuber-style-logos/ArchLinux.png" width="160" /></td>
+    <td align="center"><a href="https://vuejs.org"><img src="vtuber-style-logos/Vue.png" width="160" /></a></td>
+    <td align="center"><a href="https://ubuntu.com"><img src="vtuber-style-logos/Ubuntu.png" width="160" /></a></td>
+    <td align="center"><a href="https://archlinux.org"><img src="vtuber-style-logos/ArchLinux.png" width="160" /></a></td>
   </tr>
 </table>
 
