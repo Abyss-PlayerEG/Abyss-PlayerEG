@@ -32,7 +32,7 @@
     <td valign="center"><img src="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb&theme=dark" /></td>
   </tr>
   <tr>
-    <td valign="center" width="150"><b>運維</b></td>
+    <td valign="center" width="150"><b>DevOps</b></td>
     <td valign="center"><img src="https://skillicons.dev/icons?i=git,github,gitlab,docker,nginx,cloudflare,bash,powershell&theme=dark" /></td>
   </tr>
   <tr>
