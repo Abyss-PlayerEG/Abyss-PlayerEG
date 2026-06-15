@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=PlayerEG&fontSize=30&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=開發者%20%7C%20玩家%20%7C%20創作者&descSize=14&descAlignY=55" />
 
-<a href="https://github.com/Abyss-PlayerEG/Abyss-PlayerEG/blob/main/README.md">English</a> | <a href="https://github.com/Abyss-PlayerEG/Abyss-PlayerEG/blob/main/README_CN.md">简体中文</a> | <a href="https://github.com/Abyss-PlayerEG/Abyss-PlayerEG/blob/main/README_TW.md">繁體中文</a> | <a href="https://github.com/Abyss-PlayerEG/Abyss-PlayerEG/blob/main/README_JA.md">日本語</a>
+<a href="README.md">English</a> | <a href="README_CN.md">简体中文</a> | <a href="README_TW.md">繁體中文</a> | <a href="README_JA.md">日本語</a>
 
 ### 👋 你好!!!
 
