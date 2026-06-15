@@ -70,7 +70,11 @@
 
 [![Email](https://img.shields.io/badge/Email-gaster%40vip.playereg.top-blue?style=flat-square&logo=mail)](mailto:gaster@vip.playereg.top)
 [![Email](https://img.shields.io/badge/Email-ender%40vip.playereg.top-blue?style=flat-square&logo=mail)](mailto:ender@vip.playereg.top)
+[![GitHub](https://img.shields.io/badge/GitHub-Abyss--PlayerEG-black?style=flat-square&logo=github)](https://github.com/Abyss-PlayerEG)
+[![Gitee](https://img.shields.io/badge/Gitee-endergaster__geek-red?style=flat-square&logo=gitee)](https://gitee.com/endergaster_geek)
 [![Blog](https://img.shields.io/badge/Blog-blog.playereg.top-green?style=flat-square&logo=blogger)](https://blog.playereg.top)
+[![Bilibili](https://img.shields.io/badge/Bilibili-520500365-pink?style=flat-square&logo=bilibili)](https://space.bilibili.com/520500365)
+[![Steam](https://img.shields.io/badge/Steam-PlayerEG-blue?style=flat-square&logo=steam)](https://steamcommunity.com/profiles/76561199212492626/)
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=100&section=footer" />
 
