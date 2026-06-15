@@ -6,7 +6,7 @@
 
 ### 👋 こんにちは!!!
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=フルスタック開発者です;コードで物を作るのが好きです.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=1000&pause=1&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=フルスタック開発者です;コードで物を作るのが好きです.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
 
 🧑‍💻 **開発者** · 🎮 **ゲーマー** · 🎵 **音楽愛好家** · 🎹 **音楽クリエイター**
 

@@ -6,7 +6,7 @@
 
 ### 👋 Ola!!!
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=Sou+um+desenvolvedor+full-stack;adoro+criar+coisas+com+codigo.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=1000&pause=1&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=Sou+um+desenvolvedor+full-stack;adoro+criar+coisas+com+codigo.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
 
 🧑‍💻 **Desenvolvedor** · 🎮 **Gamer** · 🎵 **Amante de musica** · 🎹 **Criador musical**
 

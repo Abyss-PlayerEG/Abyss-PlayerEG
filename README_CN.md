@@ -1,12 +1,12 @@
 <div align="center">
 
-<a href="README.md">English</a> | <a href="README_CN.md"><b>简体中文</b></a> | <a href="README_TW.md">繁體中文</a> | <a href="README_RU.md">Русский</a> | <a href="README_JA.md">日本語</a> | <a href="README_KO.md">한국어</a> | <a href="README_ES.md">Español</a> | <a href="README_PT.md">Português</a>
+<a href="README.md">English</a> | <a href="README_CN.md"><b>简体中文</b></a> | <a href="README_TW.md">繁體中文</a> | <a href="README_JA.md">日本語</a>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=PlayerEG&fontSize=30&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=开发者%20%7C%20玩家%20%7C%20创作者&descSize=14&descAlignY=55" />
 
 ### 👋 你好!!!
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=我是一名全栈开发者;热爱用代码构建事物.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=1000&pause=1&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=我是一名全栈开发者;热爱用代码构建事物.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
 
 🧑‍💻 **开发者** · 🎮 **玩家** · 🎵 **音乐爱好者** · 🎹 **音乐创作者**
 
@@ -32,7 +32,7 @@
     <td valign="center"><img src="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb&theme=dark" /></td>
   </tr>
   <tr>
-    <td valign="center" width="150"><b>DevOps</b></td>
+    <td valign="center" width="150"><b>开发运维</b></td>
     <td valign="center"><img src="https://skillicons.dev/icons?i=git,github,gitlab,docker,nginx,cloudflare,bash,powershell&theme=dark" /></td>
   </tr>
   <tr>

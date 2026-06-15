@@ -6,7 +6,7 @@
 
 ### 👋 안녕하세요!!!
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=500&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=저는+풀스택+개발자입니다;코드로+무언가+만드는것을+좋아합니다.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=1000&pause=1&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=저는+풀스택+개발자입니다;코드로+무언가+만드는것을+좋아합니다.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
 
 🧑‍💻 **개발자** · 🎮 **게이머** · 🎵 **음악 애호가** · 🎹 **음악 크리에이터**
 
