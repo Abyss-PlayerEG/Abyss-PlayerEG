@@ -19,7 +19,7 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,java,js,go,html,css&theme=light">
         <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=py,java,js,go,html,css&theme=dark">
-        <img alt="Languages" src="https://skillicons.dev/icons?i=py,java,js,go,html,css&theme=light">
+        <img alt="Languages" src="https://skillicons.dev/icons?i=py,java,js,go,html,css&theme=light" width="300">
       </picture>
     </td>
   </tr>
@@ -29,7 +29,7 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,spring,fastapi,vue&theme=light">
         <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,spring,fastapi,vue&theme=dark">
-        <img alt="Frameworks" src="https://skillicons.dev/icons?i=nodejs,spring,fastapi,vue&theme=light">
+        <img alt="Frameworks" src="https://skillicons.dev/icons?i=nodejs,spring,fastapi,vue&theme=light" width="200">
       </picture>
     </td>
   </tr>
@@ -39,7 +39,7 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,vscode,arduino&theme=light">
         <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,vscode,arduino&theme=dark">
-        <img alt="Game Engine & IDEs" src="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,vscode,arduino&theme=light">
+        <img alt="Game Engine & IDEs" src="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,vscode,arduino&theme=light" width="300">
       </picture>
     </td>
   </tr>
@@ -49,7 +49,7 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb&theme=light">
         <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb&theme=dark">
-        <img alt="Databases" src="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb&theme=light">
+        <img alt="Databases" src="https://skillicons.dev/icons?i=mysql,postgres,redis,mongodb&theme=light" width="200">
       </picture>
     </td>
   </tr>
@@ -59,7 +59,7 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,gitlab,docker,nginx,cloudflare,bash,powershell&theme=light">
         <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,gitlab,docker,nginx,cloudflare,bash,powershell&theme=dark">
-        <img alt="DevOps" src="https://skillicons.dev/icons?i=git,github,gitlab,docker,nginx,cloudflare,bash,powershell&theme=light">
+        <img alt="DevOps" src="https://skillicons.dev/icons?i=git,github,gitlab,docker,nginx,cloudflare,bash,powershell&theme=light" width="400">
       </picture>
     </td>
   </tr>
@@ -69,7 +69,7 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=windows,apple,ubuntu,kali,debian,arch&theme=light">
         <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=windows,apple,ubuntu,kali,debian,arch&theme=dark">
-        <img alt="Operating Systems" src="https://skillicons.dev/icons?i=windows,apple,ubuntu,kali,debian,arch&theme=light">
+        <img alt="Operating Systems" src="https://skillicons.dev/icons?i=windows,apple,ubuntu,kali,debian,arch&theme=light" width="300">
       </picture>
     </td>
   </tr>
