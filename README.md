@@ -25,7 +25,7 @@
   </tr>
   <tr>
     <td valign="center" width="150"><b>Game Engine & IDEs</b></td>
-    <td valign="center"><img src="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,vscode,arduino&theme=dark" /></td>
+    <td valign="center"><img src="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,vscode&theme=dark" /></td>
   </tr>
   <tr>
     <td valign="center" width="150"><b>Databases</b></td>
