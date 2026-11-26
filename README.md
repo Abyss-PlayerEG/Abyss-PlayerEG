@@ -10,6 +10,8 @@
 
 🧑‍💻 **Developer** · 🎮 **Gamer** · 🎵 **Music Lover** · 🎹 **Music Creator**
 
+<img src="https://raw.githubusercontent.com/Abyss-PlayerEG/Abyss-PlayerEG/output/stats.svg" alt="GitHub Stats" />
+
 ---
 
 ### 🧰 My Skills
@@ -65,12 +67,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abyss-PlayerEG/Abyss-PlayerEG/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Abyss-PlayerEG/Abyss-PlayerEG/output/github-contribution-grid-snake.svg">
 </picture>
-
----
-
-### 📊 Stats
-
-<img src="https://raw.githubusercontent.com/Abyss-PlayerEG/Abyss-PlayerEG/output/stats.svg" alt="GitHub Stats" />
 
 ---
 
