@@ -44,9 +44,9 @@ LANG_COLORS = {
 DEFAULT_LANG_COLOR = LAVENDER
 
 # ── Nerd Font icons (rendered as embedded paths — no font needed) ────────────
-from icon_paths import ICONS, UPM  # noqa: E402
-from heatmap import DAYS, build_matrix, classify  # noqa: E402
-from font_data import FONT_B64, FONT_FORMAT  # noqa: E402
+from .icons import ICONS, UPM  # noqa: E402
+from .heatmap import DAYS, build_matrix, classify  # noqa: E402
+from .font import FONT_B64, FONT_FORMAT  # noqa: E402
 
 # Embedded subset font: SVG-as-image cannot load external fonts, so the
 # @font-face must ride inside the file as a data URI.

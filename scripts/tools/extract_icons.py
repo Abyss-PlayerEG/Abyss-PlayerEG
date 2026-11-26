@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Extract Nerd Font icon glyphs as SVG paths so cards render without the font.
 
-Generates scripts/icon_paths.py — run this after changing GLYPHS or the font.
+Generates scripts/stats_card/icons.py — run this after changing GLYPHS or the font.
 """
 
 import os
@@ -58,7 +58,11 @@ def main():
     if missing:
         print(f"⚠️  Missing glyphs: {', '.join(missing)}", file=sys.stderr)
 
-    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "icon_paths.py")
+    out = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "stats_card",
+        "icons.py",
+    )
     with open(out, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
     print(f"✅ {out} ({len(GLYPHS) - len(missing)} icons, upem={upem})")

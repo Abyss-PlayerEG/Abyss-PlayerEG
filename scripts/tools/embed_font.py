@@ -3,7 +3,7 @@
 so the SVG can embed it via @font-face (SVG-in-<img> cannot load webfonts).
 
 Run this after changing CHARSET or installing a new font version.
-Generates scripts/font_data.py.
+Generates scripts/stats_card/font.py.
 """
 
 import base64
@@ -16,7 +16,11 @@ from fontTools import subset
 FONT_PATH = os.path.expanduser(
     "~/Library/Fonts/JetBrainsMonoNerdFont-Regular-v1.2.ttf"
 )
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "font_data.py")
+OUT = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "stats_card",
+    "font.py",
+)
 
 # ASCII printable + symbols used by the card (· — … ❯)
 CHARSET = "".join(chr(c) for c in range(0x20, 0x7F)) + "·—…❯"

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the Catppuccin Macchiato info card (main entry point).
+"""Generate the Catppuccin Macchiato info card (workflow entry point).
 
 Pipeline: fetch GitHub data → avatar to ASCII art → render SVG.
 """
@@ -9,9 +9,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from avatar_ascii import fetch_ascii_art
-from fetch_data import fetch
-from render_svg import render
+from stats_card.avatar import fetch_ascii_art
+from stats_card.fetch import fetch
+from stats_card.render import render
 
 
 def main():
