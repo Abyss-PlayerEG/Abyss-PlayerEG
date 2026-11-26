@@ -25,6 +25,7 @@ GLYPHS = {
     "star": 0xF005,
     "users": 0xF0C0,
     "code": 0xF121,
+    "th": 0xF00A,
 }
 
 

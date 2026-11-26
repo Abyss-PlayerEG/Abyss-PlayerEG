@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Fetch GitHub profile, repository and language stats."""
+"""Fetch GitHub profile, repository, language and commit-time data."""
 
 import os
 import sys
 import time
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -63,4 +64,45 @@ def fetch(username: str) -> dict:
         "profile": profile,
         "total_stars": total_stars,
         "language_bytes": lang_bytes,
+        "commit_times": fetch_commit_times(username),
     }
+
+
+def fetch_commit_times(username: str) -> list[str]:
+    """Fetch commit timestamps (last 12 months) via the search API."""
+    print("  → Fetching commit times (last 12 months)...")
+    since = (datetime.now(timezone.utc) - timedelta(days=365)).strftime("%Y-%m-%d")
+    times: list[str] = []
+    page = 1
+    while page <= 10:  # search API caps at 1000 results
+        try:
+            resp = requests.get(
+                f"{API_BASE}/search/commits",
+                headers=_headers(),
+                params={
+                    "q": f"author:{username} committer-date:>={since}",
+                    "per_page": 100,
+                    "page": page,
+                },
+                timeout=30,
+            )
+            if resp.status_code in (403, 429):
+                print("⚠️  Search rate limited, using partial data", file=sys.stderr)
+                break
+            resp.raise_for_status()
+            items = resp.json().get("items", [])
+        except requests.RequestException as e:
+            print(f"⚠️  Commit search failed: {e}", file=sys.stderr)
+            break
+        for item in items:
+            commit = item.get("commit", {})
+            date = (commit.get("committer") or {}).get("date") or (
+                commit.get("author") or {}
+            ).get("date")
+            if date:
+                times.append(date)
+        if len(items) < 100:
+            break
+        page += 1
+    print(f"    {len(times)} commits")
+    return times

@@ -45,6 +45,7 @@ DEFAULT_LANG_COLOR = LAVENDER
 
 # ── Nerd Font icons (rendered as embedded paths — no font needed) ────────────
 from icon_paths import ICONS, UPM  # noqa: E402
+from heatmap import DAYS, build_matrix, classify  # noqa: E402
 
 IC_USER = "user"
 IC_PENCIL = "pencil"
@@ -56,6 +57,7 @@ IC_FOLDER = "folder"
 IC_STAR = "star"
 IC_USERS = "users"
 IC_CODE = "code"
+IC_TH = "th"
 
 FONT = "'JetBrainsMono Nerd Font', Menlo, Monaco, monospace"
 MONO = FONT
@@ -263,8 +265,48 @@ def render(username: str, data: dict, art: list | None) -> str:
         left_parts.append(_text(prompt_x, prompt_y + i * 16, "".join(line), TEXT, 12))
     left_bottom = prompt_y + (len(prompt_lines) - 1) * 16
 
+    # ── Commit heatmap band (full width, bottom) ──
+    matrix = build_matrix(data.get("commit_times", []))
+    levels = classify(matrix)
+    total_commits = sum(sum(row) for row in matrix)
+
+    band = []
+    base = max(content_end, left_bottom) + 8
+    band.append(_line(PAD, base, W - PAD))
+    header_y = base + 22
+    band.append(_icon(PAD, header_y, IC_TH, 12, SUBTEXT0))
+    band.append(_text(PAD + 22, header_y, "Commit Heatmap · Last 12 Months", SUBTEXT0, 12))
+    band.append(_text(W - PAD, header_y, f"{total_commits} commits", GREEN, 12, weight="700", anchor="end"))
+
+    grid_x = PAD + 34
+    grid_w = W - PAD - grid_x
+    pitch = grid_w / 24
+    cell_w = pitch - 6
+
+    hour_y = header_y + 18
+    for hcol in range(0, 24, 4):
+        cx = grid_x + hcol * pitch + cell_w / 2
+        band.append(_text(cx, hour_y, f"{hcol:02d}", OVERLAY0, 9, anchor="middle"))
+
+    heat_opacity = [0, 0.3, 0.55, 0.8, 1.0]
+    row0_y = hour_y + 24
+    for d in range(7):
+        ry = row0_y + d * 16
+        band.append(_text(PAD, ry, DAYS[d], SUBTEXT0, 10))
+        for hcol in range(24):
+            lv = levels[d][hcol]
+            x = grid_x + hcol * pitch
+            if lv == 0:
+                band.append(f'<rect x="{x:.1f}" y="{ry - 11}" width="{cell_w:.1f}" height="12" rx="2" fill="{SURFACE0}"/>')
+            else:
+                band.append(
+                    f'<rect x="{x:.1f}" y="{ry - 11}" width="{cell_w:.1f}" height="12" rx="2" '
+                    f'fill="{GREEN}" fill-opacity="{heat_opacity[lv]}"/>'
+                )
+    band_end = row0_y + 6 * 16 + 14
+
     # ── Window height ──
-    h = int(max(content_end, left_bottom) + 14)
+    h = int(band_end + 14)
 
     # ── Window chrome ──
     head = [
@@ -281,4 +323,4 @@ def render(username: str, data: dict, art: list | None) -> str:
 
     art_parts = _art_text(art, art_x, art_y) if art else []
 
-    return "\n".join(head + art_parts + left_parts + parts + ["</svg>"])
+    return "\n".join(head + art_parts + left_parts + parts + band + ["</svg>"])
