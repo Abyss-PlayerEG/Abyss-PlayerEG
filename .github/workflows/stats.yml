@@ -22,14 +22,14 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests Pillow
 
-      - name: Generate stats card
+      - name: Generate info card
         env:
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
           OUTPUT_DIR: img
-        run: python scripts/generate_stats.py
+        run: python scripts/generate_card.py
 
       - name: Push stats.svg to output branch
         run: |
@@ -43,9 +43,8 @@ jobs:
           git fetch --depth 1 origin output
           git checkout -B output FETCH_HEAD
 
-          # 更新 SVG，移除已废弃的 terminal.svg
+          # 更新 SVG
           cp /tmp/stats.svg stats.svg
-          git rm -q --ignore-unmatch terminal.svg
           git add stats.svg
 
           if git diff --cached --quiet; then
