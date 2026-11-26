@@ -70,7 +70,7 @@
 
 ### 📊 统计
 
-<img src="https://raw.githubusercontent.com/Abyss-PlayerEG/Abyss-PlayerEG/output/terminal.svg" alt="GitHub 终端统计" />
+<img src="https://raw.githubusercontent.com/Abyss-PlayerEG/Abyss-PlayerEG/output/stats.svg" alt="GitHub 统计" />
 
 ---
 
