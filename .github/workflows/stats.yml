@@ -28,14 +28,26 @@ jobs:
           output: img/terminal.svg
           cache-mode: refresh
 
-      - name: Commit & push
+      - name: Push terminal.svg to output branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add img/terminal.svg .svg-terminal-cache.json
-          if git diff --cached --quiet; then
+
+          # 暂存生成的 SVG
+          cp img/terminal.svg /tmp/terminal.svg
+
+          # 切到 output 分支（保留已有的 snake 文件）
+          git fetch --depth 1 origin output
+          git checkout -B output FETCH_HEAD
+
+          # 更新 SVG
+          cp /tmp/terminal.svg terminal.svg
+
+          if git diff --quiet -- terminal.svg; then
             echo "No changes to commit"
-          else
-            git commit -m "chore: auto-update terminal SVG [skip ci]"
-            git push
+            exit 0
           fi
+
+          git add terminal.svg
+          git commit -m "chore: update terminal SVG"
+          git push origin output

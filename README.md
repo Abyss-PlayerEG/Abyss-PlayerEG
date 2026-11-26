@@ -70,7 +70,7 @@
 
 ### 📊 Stats
 
-<img src="img/terminal.svg" alt="GitHub Terminal Stats" />
+<img src="https://raw.githubusercontent.com/Abyss-PlayerEG/Abyss-PlayerEG/output/terminal.svg" alt="GitHub Terminal Stats" />
 
 ---
 
