@@ -14,7 +14,7 @@ def _lum(r: int, g: int, b: int) -> float:
     return 0.299 * r + 0.587 * g + 0.114 * b
 
 
-def fetch_ascii_art(avatar_url: str, cols: int = 49, rows: int = 28) -> list[list[tuple[str, str]]]:
+def fetch_ascii_art(avatar_url: str, cols: int = 58, rows: int = 33) -> list[list[tuple[str, str]]]:
     """Return a rows×cols grid of (char, '#rrggbb'), spaces skipped as (' ', '')."""
     url = avatar_url.split("?")[0] + "?s=512"
     print(f"  → Downloading avatar...")
