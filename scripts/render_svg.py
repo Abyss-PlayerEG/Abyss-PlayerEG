@@ -46,6 +46,19 @@ DEFAULT_LANG_COLOR = LAVENDER
 # ── Nerd Font icons (rendered as embedded paths — no font needed) ────────────
 from icon_paths import ICONS, UPM  # noqa: E402
 from heatmap import DAYS, build_matrix, classify  # noqa: E402
+from font_data import FONT_B64, FONT_FORMAT  # noqa: E402
+
+# Embedded subset font: SVG-as-image cannot load external fonts, so the
+# @font-face must ride inside the file as a data URI.
+FONT_FACE = (
+    "<style>"
+    "@font-face{"
+    "font-family:'JetBrainsMono Nerd Font';"
+    f"src:url(data:font/{FONT_FORMAT};base64,{FONT_B64}) format('{FONT_FORMAT}');"
+    "font-weight:400;font-style:normal;"
+    "}"
+    "</style>"
+)
 
 IC_USER = "user"
 IC_PENCIL = "pencil"
@@ -311,6 +324,7 @@ def render(username: str, data: dict, art: list | None) -> str:
     # ── Window chrome ──
     head = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" role="img" aria-label="GitHub stats card for @{esc(username)}">',
+        FONT_FACE,
         f'<rect width="{W}" height="{h}" rx="10" fill="{BASE}"/>',
         f'<path d="M0,10 A10,10 0 0 1 10,0 H{W - 10} A10,10 0 0 1 {W},10 V{TITLE_H} H0 Z" fill="{MANTLE}"/>',
         f'<line x1="0" y1="{TITLE_H}" x2="{W}" y2="{TITLE_H}" stroke="{CRUST}" stroke-width="1"/>',
