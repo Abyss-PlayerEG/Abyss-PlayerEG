@@ -35,6 +35,7 @@ window:
   title: "playereg@PlayerEG-MAC"
   style: macos
   width: 820
+  height: 620
 
 terminal:
   fontFamily: "Menlo, Monaco, 'Courier New', monospace"
@@ -67,6 +68,7 @@ blocks:
       username: Abyss-PlayerEG
       top: 5
       barWidth: 20
+      command: "gh languages"
 
   - block: palette-swatch
     config:
