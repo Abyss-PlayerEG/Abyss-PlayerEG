@@ -70,12 +70,7 @@
 
 ### 📊 统计
 
-<table>
-  <tr>
-    <td><img src="img/langs.svg" alt="语言分布" /></td>
-    <td><img src="img/journey.svg" alt="GitHub 旅程" /></td>
-  </tr>
-</table>
+<img src="img/terminal.svg" alt="GitHub 终端统计" />
 
 ---
 

@@ -70,12 +70,7 @@
 
 ### 📊 Stats
 
-<table>
-  <tr>
-    <td><img src="img/langs.svg" alt="Language Distribution" /></td>
-    <td><img src="img/journey.svg" alt="GitHub Journey" /></td>
-  </tr>
-</table>
+<img src="img/terminal.svg" alt="GitHub Terminal Stats" />
 
 ---
 
