@@ -19,15 +19,15 @@
 <table>
   <tr>
     <td valign="center" width="150"><b>编程语言</b></td>
-    <td valign="center"><img src="https://skillicons.dev/icons?i=py,java,js,go,html,css&theme=dark" /></td>
+    <td valign="center"><img src="https://skillicons.dev/icons?i=py,rust,java,js,ts,go,html,css&theme=dark" /></td>
   </tr>
   <tr>
     <td valign="center" width="150"><b>框架</b></td>
-    <td valign="center"><img src="https://skillicons.dev/icons?i=nodejs,spring,fastapi,vue&theme=dark" /></td>
+    <td valign="center"><img src="https://skillicons.dev/icons?i=nodejs,spring,fastapi,vue,react&theme=dark" /></td>
   </tr>
   <tr>
     <td valign="center" width="150"><b>游戏引擎 & IDE</b></td>
-    <td valign="center"><img src="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,vscode,arduino&theme=dark" /></td>
+    <td valign="center"><img src="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,clion,vscode,arduino&theme=dark" /></td>
   </tr>
   <tr>
     <td valign="center" width="150"><b>数据库</b></td>

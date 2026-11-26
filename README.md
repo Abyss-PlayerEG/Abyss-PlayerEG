@@ -19,15 +19,15 @@
 <table>
   <tr>
     <td valign="center" width="150"><b>Languages</b></td>
-    <td valign="center"><img src="https://skillicons.dev/icons?i=py,java,js,go,html,css&theme=dark" /></td>
+    <td valign="center"><img src="https://skillicons.dev/icons?i=py,rust,java,js,ts,go,html,css&theme=dark" /></td>
   </tr>
   <tr>
     <td valign="center" width="150"><b>Frameworks</b></td>
-    <td valign="center"><img src="https://skillicons.dev/icons?i=nodejs,spring,fastapi,vue&theme=dark" /></td>
+    <td valign="center"><img src="https://skillicons.dev/icons?i=nodejs,spring,fastapi,vue,react&theme=dark" /></td>
   </tr>
   <tr>
     <td valign="center" width="150"><b>Game Engine & IDEs</b></td>
-    <td valign="center"><img src="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,vscode&theme=dark" /></td>
+    <td valign="center"><img src="https://skillicons.dev/icons?i=godot,idea,pycharm,webstorm,clion,vscode,arduino&theme=dark" /></td>
   </tr>
   <tr>
     <td valign="center" width="150"><b>Databases</b></td>
