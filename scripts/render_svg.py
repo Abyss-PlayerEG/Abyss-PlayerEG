@@ -43,17 +43,19 @@ LANG_COLORS = {
 }
 DEFAULT_LANG_COLOR = LAVENDER
 
-# ── Nerd Font (Font Awesome) icons ───────────────────────────────────────────
-IC_USER = "\uf007"
-IC_PENCIL = "\uf040"
-IC_MAP = "\uf041"
-IC_BRIEFCASE = "\uf0b1"
-IC_CALENDAR = "\uf133"
-IC_LINK = "\uf0c1"
-IC_FOLDER = "\uf07b"
-IC_STAR = "\uf005"
-IC_USERS = "\uf0c0"
-IC_CODE = "\uf121"
+# ── Nerd Font icons (rendered as embedded paths — no font needed) ────────────
+from icon_paths import ICONS, UPM  # noqa: E402
+
+IC_USER = "user"
+IC_PENCIL = "pencil"
+IC_MAP = "map"
+IC_BRIEFCASE = "briefcase"
+IC_CALENDAR = "calendar"
+IC_LINK = "link"
+IC_FOLDER = "folder"
+IC_STAR = "star"
+IC_USERS = "users"
+IC_CODE = "code"
 
 FONT = "'JetBrainsMono Nerd Font', Menlo, Monaco, monospace"
 MONO = FONT
@@ -91,6 +93,16 @@ def _line(x1, y, x2, color=SURFACE1):
     return f'<line x1="{x1}" y1="{y}" x2="{x2}" y2="{y}" stroke="{color}" stroke-width="1"/>'
 
 
+def _icon(x, y, name, size, color):
+    """Draw an icon glyph outline as a vector path at the given baseline."""
+    s = size / UPM
+    d = ICONS[name]
+    return (
+        f'<path d="{d}" fill="{color}" '
+        f'transform="translate({x},{y}) scale({s:.4f},{-s:.4f})"/>'
+    )
+
+
 def _truncate(s: str, n: int) -> str:
     s = str(s)
     return s if len(s) <= n else s[: n - 1] + "…"
@@ -99,7 +111,7 @@ def _truncate(s: str, n: int) -> str:
 def _field(y, right_x, icon, label, value, color):
     """Icon + 'Label:' + value row."""
     parts = [
-        _text(right_x, y, icon, color, 12),
+        _icon(right_x, y, icon, 12, color),
         _text(right_x + 22, y, f"{esc(label)}:", SUBTEXT0, 12),
         _text(right_x + 130, y, esc(value), color, 12),
     ]
@@ -206,7 +218,7 @@ def render(username: str, data: dict, art: list | None) -> str:
     # ── Languages section ──
     parts.append(_line(right_x, y, W - PAD))
     y += LINE_ADV
-    parts.append(_text(right_x, y, IC_CODE, SUBTEXT0, 12))
+    parts.append(_icon(right_x, y, IC_CODE, 12, SUBTEXT0))
     parts.append(_text(right_x + 22, y, "Languages · Public Repositories", SUBTEXT0, 12))
 
     # Block-character bars
