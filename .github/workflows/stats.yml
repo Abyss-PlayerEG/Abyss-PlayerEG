@@ -1,0 +1,44 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    # 每天 UTC 02:00 运行（北京时间 10:00）
+    - cron: "0 2 * * *"
+  workflow_dispatch: # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          OUTPUT_DIR: img
+        run: python scripts/generate_stats.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add img/langs.svg img/journey.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: auto-update stats cards [skip ci]"
+            git push
+          fi
