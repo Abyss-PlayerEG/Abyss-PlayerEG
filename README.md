@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=PlayerEG&fontSize=30&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Developer%20%7C%20Gamer%20%7C%20Creator&descSize=14&descAlignY=55" />
 
-### 👋 Hello!!!
+### 👋👋👋 Hello!!!
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=1000&pause=1&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=70&lines=I'm+a+full-stack+developer;who+loves+building+things+with+code.&border=58A6FF&borderRadius=0)](https://git.io/typing-svg)
 
