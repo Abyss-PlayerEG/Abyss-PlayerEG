@@ -6,7 +6,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 * * * *" # 每小时整点运行（UTC）
+    - cron: "30 19 * * *" # 北京时间每天 03:30
   workflow_dispatch:
 
 permissions:
